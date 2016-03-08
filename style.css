@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.ramme {
+	width:900px;
+	margin:auto;
+}
+
+.indre_ramme_header {
+	font-size:2em;
+}
+
+.indre_ramme {
+	width:280px;
+	min-height:300px;
+	float:left;
+}
+
+.lesmer {
+	margin:auto;
+	width:500px;
+}
+
+.indre_ramme + .indre_ramme {
+	margin-left:20px;
+}
